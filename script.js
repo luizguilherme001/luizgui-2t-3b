@@ -6,27 +6,27 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Um dia você está faendo uma trilha em uma floresta, ateé que você se perde, ao caminhar por mai alguma horas você cheega na casa o Sr. Lobo. Ele te convida a entrar na casa dele para tomar uma café. Você aceita ir com ele? ",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Se você disse sim. Parabéns você está vivo.",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Caso tenha falado não, você morreu",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Ao entrar na casa do Sr. Lobo você encontra um corpo ensaguentado no chão da sala. O que você decide fazer? Atacar o Sr. Lobo por trás com um machado ou fingir que não viu e seguir ele normalmente?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Você morreu ao tentar atacar o Sr Lobo. Você achou mesmo que mataria ele?",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Vocês vão para a cozinha e ele te serve uma xicara de café",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
