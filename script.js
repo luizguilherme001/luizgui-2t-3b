@@ -6,53 +6,53 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Um dia você está faendo uma trilha em uma floresta, ateé que você se perde, ao caminhar por mai alguma horas você cheega na casa o Sr. Lobo. Ele te convida a entrar na casa dele para tomar uma café. Você aceita ir com ele? ",
+        enunciado: "1. Qual a segunda rua mais famora do Brasil? ",
         alternativas: [
             {
-                texto: "Se você disse sim. Parabéns você está vivo.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "A) Avenida Presidente Vargas - Rio de Janeiro, RJ",
+                afirmacao: "1. Certa "
             },
             {
-                texto: "Caso tenha falado não, você morreu",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "B) Rua Oscar Freire - São Paulo, SP",
+                afirmacao: "1. Errada"
             }
         ]
     },
     {
-        enunciado: "Ao entrar na casa do Sr. Lobo você encontra um corpo ensaguentado no chão da sala. O que você decide fazer? Atacar o Sr. Lobo por trás com um machado ou fingir que não viu e seguir ele normalmente?",
+        enunciado: "2. Qual o maior prédio do mundo?",
         alternativas: [
             {
-                texto: "Você morreu ao tentar atacar o Sr Lobo. Você achou mesmo que mataria ele?",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "A) Burj Khalifa",
+                afirmacao: "2. Correta"
             },
             {
-                texto: "Vocês vão para a cozinha e ele te serve uma xicara de café",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "B) Merdeka 118",
+                afirmacao: "2. Errada"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Quantos elementos há na Tabela Periódica?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "A)108",
+                afirmacao: "3. Errada"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "B)118",
+                afirmacao: "3. Certa"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Qual foi a moeda mais recente utiliada no Brasil?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "A)Real brasileiro",
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "B)Cruzeiro real",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
