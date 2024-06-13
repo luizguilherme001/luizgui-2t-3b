@@ -9,12 +9,20 @@ const perguntas = [
         enunciado: "1. Qual a segunda rua mais famora do Brasil? ",
         alternativas: [
             {
-                texto: "A) Avenida Presidente Vargas - Rio de Janeiro, RJ",
-                afirmacao: "1. Certa "
+                texto: "A) Rua Oscar Freire - São Paulo, SP ",
+                afirmacao: "1) Errou "
             },
             {
-                texto: "B) Rua Oscar Freire - São Paulo, SP",
-                afirmacao: "1. Errada"
+                texto: "B) Avenida Presidente Vargas - Rio de Janeiro, RJ",
+                afirmacao: "1) Acertou"
+            },
+            {
+                texto: "C) Avenida Atlântica - Balneário Camboriú, SC",
+                afirmacao: "2) Errou"
+            },
+            {
+                texto: "D) Avenida Getúlio Vargas - Belo Horizonte, MG",
+                afirmacao: "2) Errou"
             }
         ]
     },
@@ -22,12 +30,20 @@ const perguntas = [
         enunciado: "2. Qual o maior prédio do mundo?",
         alternativas: [
             {
-                texto: "A) Burj Khalifa",
-                afirmacao: "2. Correta"
+                texto: "A) Burj Khalifa- Emirados Árabes",
+                afirmacao: "2) Acertou"
             },
             {
-                texto: "B) Merdeka 118",
-                afirmacao: "2. Errada"
+                texto: "B) Merdeka 118-Malásia",
+                afirmacao: "2) Errou"
+            },
+            {
+                texto: "C) Shanghai Tower-China",
+                afirmacao: "3) Errou"
+            },
+            {
+                texto: "D)One World Trade Center-EUA",
+                afirmacao: "2) Errou"
             }
         ]
     },
@@ -35,12 +51,20 @@ const perguntas = [
         enunciado: "Quantos elementos há na Tabela Periódica?",
         alternativas: [
             {
-                texto: "A)108",
-                afirmacao: "3. Errada"
+                texto: "A)118",
+                afirmacao: "3) Acertou"
             },
             {
-                texto: "B)118",
-                afirmacao: "3. Certa"
+                texto: "B)112",
+                afirmacao: "3) Errou"
+            },
+            {
+                texto: "C)120",
+                afirmacao: "3) Errou"
+            },
+            {
+                texto: ")98",
+                afirmacao: "3) Errou"
             }
         ]
     },
@@ -48,25 +72,41 @@ const perguntas = [
         enunciado: "Qual foi a moeda mais recente utiliada no Brasil?",
         alternativas: [
             {
-                texto: "A)Real brasileiro",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "A) Real brasileiro",
+                afirmacao: "4) Errou"
             },
             {
-                texto: "B)Cruzeiro real",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "B) Cruzeiro real",
+                afirmacao: "4) Acertou"
+            },
+            {
+                texto: "C) Cruzado Novo",
+                afirmacao: "4) Errou"
+            },
+            {
+                texto: "D) Cruzeiro Novo",
+                afirmacao: "4) Errou"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Quantas bombas atômicas eistem atualmente no mundo?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "12.586",
+                afirmacao: "5) Acertou"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "12.599",
+                afirmacao: "5) Errou"
+            },
+            {
+                texto: "C) 12.000",
+                afirmacao: "2) Errou"
+            },
+            {
+                texto: "D) 12.575",
+                afirmacao: "2) Errou"
             }
         ]
     },
@@ -105,7 +145,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Gabarito";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
