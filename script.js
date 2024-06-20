@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "1. Qual a segunda rua mais famora do Brasil? ",
+        enunciado: "1. Qual a segunda rua mais famosa do Brasil? ",
         alternativas: [
             {
                 texto: "A) Rua Oscar Freire - São Paulo, SP ",
@@ -27,7 +27,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "2. Qual o maior prédio do mundo?",
+        enunciado: "2. Qual o maior prédio do mundo atualmente?",
         alternativas: [
             {
                 texto: "A) Burj Khalifa- Emirados Árabes",
@@ -69,7 +69,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual foi a moeda mais recente utiliada no Brasil?",
+        enunciado: "Qual foi a última moeda utlizada no Brasil?",
         alternativas: [
             {
                 texto: "A) Real brasileiro",
@@ -90,23 +90,23 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Quantas bombas atômicas eistem atualmente no mundo?",
+        enunciado: "Quantas bombas atômicas existem atualmente no mundo?",
         alternativas: [
             {
-                texto: "12.586",
+                texto: "A) 12.586",
                 afirmacao: "5) Acertou"
             },
             {
-                texto: "12.599",
+                texto: "B) 12.599",
                 afirmacao: "5) Errou"
             },
             {
                 texto: "C) 12.000",
-                afirmacao: "2) Errou"
+                afirmacao: "5) Errou"
             },
             {
                 texto: "D) 12.575",
-                afirmacao: "2) Errou"
+                afirmacao: "5) Errou"
             }
         ]
     },
