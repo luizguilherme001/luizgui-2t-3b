@@ -18,11 +18,11 @@ const perguntas = [
             },
             {
                 texto: "C) Avenida Atlântica - Balneário Camboriú, SC",
-                afirmacao: "2) Errou"
+                afirmacao: "1) Errou"
             },
             {
                 texto: "D) Avenida Getúlio Vargas - Belo Horizonte, MG",
-                afirmacao: "2) Errou"
+                afirmacao: "1) Errou"
             }
         ]
     },
@@ -39,7 +39,7 @@ const perguntas = [
             },
             {
                 texto: "C) Shanghai Tower-China",
-                afirmacao: "3) Errou"
+                afirmacao: "2) Errou"
             },
             {
                 texto: "D)One World Trade Center-EUA",
@@ -48,7 +48,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Quantos elementos há na Tabela Periódica?",
+        enunciado: "3. Quantos elementos há na Tabela Periódica?",
         alternativas: [
             {
                 texto: "A)118",
@@ -69,7 +69,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual foi a última moeda utlizada no Brasil?",
+        enunciado: "4. Qual foi a última moeda utlizada no Brasil?",
         alternativas: [
             {
                 texto: "A) Real brasileiro",
@@ -90,8 +90,8 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Quantas bombas atômicas existem atualmente no mundo?",
-        alternativas: [
+        enunciado: "5. Quantas bombas atômicas existem atualmente no mundo?",
+        alternativas. : [
             {
                 texto: "A) 12.586",
                 afirmacao: "5) Acertou"
