@@ -91,7 +91,7 @@ const perguntas = [
     },
     {
         enunciado: "5. Quantas bombas atômicas existem atualmente no mundo?",
-        alternativas. : [
+        alternativas: [
             {
                 texto: "A) 12.586",
                 afirmacao: "5) Acertou"
@@ -109,7 +109,7 @@ const perguntas = [
                 afirmacao: "5) Errou"
             }
         ]
-    },
+    }
 ];
 
 
